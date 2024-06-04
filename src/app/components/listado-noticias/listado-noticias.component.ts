@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-listado-noticias',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoNoticiasComponent implements OnInit {
 
+  @Input() noticias: any[] = [];
   constructor() { }
 
   ngOnInit(): void {
