@@ -31,6 +31,7 @@ export class FormularioComponent implements OnInit {
     { value: 'mx', nombre: 'Mexico' },
     { value: 'gb', nombre: 'Reino Unido' },
     { value: 'cu', nombre: 'Cuba' },
+    { value: 'us', nombre: 'EUA' },
   ]
 
   constructor() { }
